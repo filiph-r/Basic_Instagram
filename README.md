@@ -2,7 +2,7 @@
 This project represents a web app that shows some basic instagram functionalities.<br>
 
 # Description 
-This web app is written in Java (Spring boot + Spring security) witch represents the backend, and Angular7 for the forntend part<br><br>
+This web app is written in Java (Spring boot + Spring security) witch represents the backend, and Angular7 for the frontend part<br><br>
 
 # Functionalities:
 - Login<br>
