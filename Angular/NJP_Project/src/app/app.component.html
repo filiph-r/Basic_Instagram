@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>{{title}}</h1>
+  <nav>
+
+  	<a *ngIf=isLogedIn() routerLink="/home" style="padding-right: 1.8em">Home</a>
+  	<a *ngIf=isLogedIn() routerLink="/profile" style="padding-right: 1.8em">Profile</a>
+  	<a *ngIf=isLogedIn() routerLink="/allusers" style="padding-right: 1.8em">All Users</a>
+  	<a *ngIf=isLogedIn() routerLink="/post" style="padding-right: 1.8em">Post</a>
+
+    <a routerLink="/login" style="padding-right: 1.8em">{{linkName}}</a>
+    <a *ngIf=!isLogedIn() routerLink="/register" style="padding-right: 1.8em">Register</a>
+  </nav>
+  <router-outlet></router-outlet>

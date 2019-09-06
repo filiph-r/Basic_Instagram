@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: NJP_Project
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Filip
+Implementation-Vendor-Id: io.njp
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/domaci3
+Created-By: Maven Integration for Eclipse
+
